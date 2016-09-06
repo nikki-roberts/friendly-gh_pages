@@ -1,0 +1,44 @@
+@media screen and (max-width:499px) {
+	* {
+		background-color: #3f454b;
+	}
+	.div {
+		color: #e9eeee;
+	}
+	.header {
+		font-family: 'Kaushan Script', cursive;
+		text-align: center;
+		color:#77a6b2;
+	}
+	.social {
+		font-weight: bold;
+	}
+	p {
+		font-family: 'Open Sans', sans-serif;
+	}
+	li {
+		font-family: 'PT Serif', serif;
+	}
+	h5:hover {
+		-moz-transform: scale(1.1);
+	    -webkit-transform: scale(1.1);
+	  	transform: scale(1.1);
+	}
+	button {
+		margin-top:100px;
+	}
+}
+@media screen and (min-width:500px) {
+	body {
+		background-color: #DCDCDC;
+	}
+	
+	#heading {
+		position: fixed;
+		font-family: 'Kaushan Script', cursive;
+		background-color: #4F5B78;
+	}
+	.social {
+		font-weight: bold;
+	}
+}
